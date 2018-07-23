@@ -1,0 +1,67 @@
+
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+	margin: 0px;
+	background-color: black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
+
+header.DJ {
+	background-position: center;
+	background-image: url("https://scontent.ftlv6-1.fna.fbcdn.net/v/t31.0-8/29355238_877607712418374_5702917895782306777_o.jpg?_nc_cat=0&oh=e0a5324674549d611f81223bdba13937&oe=5BCD6CE3");
+	background-size: cover;
+	height: 100%;
+  }
+
+  header.startup hr {
+	margin-top: 200px;
+	margin-bottom: 30px; 
+  }
+
+.btn {
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 300px;
+	font-family: 'Montserrat', sans-serif;
+  }
+  
+  .btn-xl {
+	padding: 1rem 2rem; 
+  }
+  
+  .btn-primary {
+	background-color: #F05F44;
+	border-color: #F05F44; }
+  
+  .btn-primary:hover {
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	border-width: 5px;
+	cursor: pointer;
+  }
+
+/*
+img {
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+*/
